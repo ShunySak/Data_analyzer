@@ -33,7 +33,7 @@ jobs:
       # 4. PyInstallerでアプリをビルドする
       - name: Build with PyInstaller
         # ↓↓↓ ★★★ この「your_script.py」をあなたのファイル名に変更！ ★★★
-        run: pyinstaller --onedir --windowed data_analyzer_v3.py
+        run: pyinstaller --onedir --windowed data_analyzer_v3_2.py
 
       # 5. 完成したアプリをZIPファイルとして保存する
       - name: Upload artifact
